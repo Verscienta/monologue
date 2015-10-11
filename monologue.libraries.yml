@@ -1,0 +1,23 @@
+normalize:
+  remote: https://github.com/necolas/normalize.css
+  version: 3.0.3
+  license:
+    name: gpl
+    url: https://github.com/necolas/normalize.css/blob/master/LICENSE.md
+    gpl-compatible: true
+  css: //cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css: { type: external }
+
+monologue:
+  version: 1.x
+  css:
+    theme:
+      css/main.css: {}
+
+purecss:
+  remote: http://purecss.io/
+  version: 0.6.0
+  license:
+    name: BSD
+    url: https://github.com/yahoo/pure/blob/master/LICENSE.md
+    gpl-compatible: true
+  css: //cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css: { type: external }
