@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "restore",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.site-name {
+  font-family: "restore",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin:0;
+
+  a {
+    color:$typl8-heading-color;
+    text-decoration: none;
+  }
+}
+body {
+  font-family: "acumin-pro";
+  color:$typl8-copy-color;
+}
+i, .site-slogan {
+  font-family: "acumin-pro",sans-serif;
+font-style: italic;
+font-weight: 400;
+}
+main a {
+  color:$typl8-copy-color;
+  border-bottom:$primary-color 3px solid;
+  text-decoration: none;
+  padding:0px 5px 0px 5px;
+
+  &:hover {
+    border-bottom:lighten($primary-color, 10%) 5px solid;
+  }
+}
+main h2 a {
+  border-bottom:$primary-color 4px solid;
+
+  &:hover {
+    border-bottom:lighten($primary-color, 10%) 7px solid;
+  }
+}

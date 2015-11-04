@@ -1,5 +1,21 @@
 @import 'compass';
 
-
 // Vendor imports
+@import 'vendor/normalize';
+@import 'vendor/typeplate-sk/typeplate';
+@import 'vendor/skeleton';
 @import 'vendor/stars';
+
+// misc
+@import 'misc/colors';
+@import 'misc/typography';
+
+// Sections
+@import 'sections/global';
+@import 'sections/header';
+@import 'sections/main';
+@import 'sections/footer';
+
+// Components
+@import 'components/main-menu';
+@import 'components/breadcrumbs';
