@@ -6,6 +6,7 @@
 @import 'vendor/skeleton';
 @import 'vendor/stars';
 
+<<<<<<< HEAD
 // misc
 @import 'misc/colors';
 @import 'misc/typography';
@@ -19,3 +20,8 @@
 // Components
 @import 'components/main-menu';
 @import 'components/breadcrumbs';
+=======
+// Sections
+@import 'sections/global';
+@import 'sections/header';
+>>>>>>> a48f008917d10724073068f3237aac135e889f2d
